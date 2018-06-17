@@ -1,0 +1,11 @@
+#讓使用者輸入5個數字，找出最大值，並算出總合
+n1=int(input("Enter a number:"))
+n2=int(input("Enter a number:"))
+n3=int(input("Enter a number:"))
+n4=int(input("Enter a number:"))
+n5=int(input("Enter a number:"))
+list_n=[n1,n2,n3,n4,n5]
+Max_n=max(list_n)
+print("最大值:",Max_n) #找出最大值
+sum=n1+n2+n3+n4+n5
+print("總和:",sum) #算出總和
